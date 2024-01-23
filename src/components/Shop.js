@@ -7,7 +7,7 @@ const Shop = () => {
 
   const dispatch = useDispatch();
 
-  const actions = bindActionCreators(actionCreators, dispath);
+  const actions = bindActionCreators(actionCreators, dispatch);
 
 
 
